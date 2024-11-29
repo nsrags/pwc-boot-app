@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pwc-boot-app
+  title: pwc-boot-app
+  annotations:
+    github.com/project-slug: pwc/pwc-boot-app
+  tags:
+    - spring-boot
+    - java
+    - maven
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
